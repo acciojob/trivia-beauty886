@@ -1,36 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<style>
-    blockquote {
-      max-width: 600px;
-      margin: 10px;
-      padding: 15px;
-      border-left: 8px solid green;
-      background-color: #f8fffe;
-      font-weight: bold;
-    }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Question</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        blockquote {
+            max-width: 600px;
+            margin: 10px;
+            padding: 15px;
+            border-left: 8px solid green;
+            background-color: #f8fffe;
+            font-weight: bold;
+        }
     </style>
-	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<h3>What is the capital of India?</h3>
+    <h1>Trivia</h1>
     <form>
-    <input type="radio" name="capital" value="new-delhi"> New Delhi<br>
-    <input type="radio" name="capital" value="mumbai"> Mumbai
+        <p>What is the capital of India?</p>
+        <label>
+            <input type="radio" name="capital" value="New Delhi"> New Delhi
+        </label><br>
+        <label>
+            <input type="radio" name="capital" value="Mumbai"> Mumbai
+        </label>
     </form>
-
-    <blockquote>
-    New Delhi is the capital of India and an administrative district of NCT Delhi.
-    <br>
+    
+    <blockquote cite="https://en.wikipedia.org/wiki/New_Delhi">
+        New Delhi is the capital of India and an administrative district of NCT Delhi.
     </blockquote>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    
+    <p><strong>Note:</strong> Make sure to follow the exact specifications to create the desired appearance.</p>
 </body>
-
 </html>
